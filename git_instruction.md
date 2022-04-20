@@ -107,3 +107,12 @@ _GitHub - is a service that allows to integrate different local and remote repos
 ### Push and Pull
 
 ### What is **Pull Request** ? And how to do it? 
+Sometimes you need to do a Pull Request. It is useful when working with _open-source projects_ . __Pull Request__ allows to _propose_ your changes to the repository owner
+
+How it is done: 
+1. Find repository on GitHub you want
+2. Fork it 
+3. Than `git clone` it to your local repository (as it is described above)
+4. Create new branch in which you will do the changes
+5. Than do `git push` from yor local to your remote repository
+6. In your remote repository do **Pull Request**  
