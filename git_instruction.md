@@ -101,6 +101,13 @@ git branch -D branch_name
 ## Working with remote repositiories: 
 _GitHub - is a service that allows to integrate different local and remote repositories_
 ### Getting external repository to your local
+If you want to copy some repository from GitHub on your computer (even without registering on Github). Do the following: 
+1. On Github find desired repository
+2. Choose Clone; than copy adress
+3. in terminal in folder you want to add this repository write next command: 
+```
+git clone adress_link
+```
 
 ### Create remote repository
 
