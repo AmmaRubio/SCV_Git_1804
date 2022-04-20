@@ -121,5 +121,7 @@ git branch -M main
 Git push -u origin main
 ```
 ### Push and Pull
-
+When you have got and set up your repositories, there are two main commands:
+* `git push`- this command will send commits from your local repository to the remote one
+* `git pull`- this command will addapt commits from the remote repository to your local one
 ### What is **Pull Request** ? And how to do it? 
