@@ -103,7 +103,16 @@ _GitHub - is a service that allows to integrate different local and remote repos
 ### Getting external repository to your local
 
 ### Create remote repository
-
+In order to create remote repository on GitHub go through the next steps: 
+1. Create accaunt on GitHub.com
+2. Create local repository on your computer (_remider with  `git init`_)
+3. Create Repository in your account on GitHub.com
+3. Link Local and Remote repositories with the following commands: 
+```
+git remote add origin_adress_repository
+git branch -M main
+Git push -u origin main
+```
 ### Push and Pull
 
 ### What is **Pull Request** ? And how to do it? 
